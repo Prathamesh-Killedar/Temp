@@ -1,0 +1,20 @@
+git config --global user.name "User_name"
+git config --global user.email "Email_id"
+
+git clone httpPath
+git add .
+git commit -m "anything"
+git push -u origin main
+
+
+
+//Docker
+docker build -t abcd .
+
+docker run -it abcd
+
+-cp
+ vi hello.sh
+  bash hello.sh
+
+#!/bin/bash
