@@ -1,0 +1,48 @@
+1. Create a folder
+2. create a java/ shell/html file in vs
+3. create a docker file
+4. turn on desktop server
+5. open terminal : 
+6. docker build -t imagename .(dot)
+7. docker run imagename  (ifor userinput = docker run -it imagename)
+(for html=== docker run -p 8080:80 imagename)
+
+
+
+GitHub
+
+1. create a repo. and copy path from code
+2. create one folder on desktop and create a code file in it
+3. open cmd 
+4. git clone path 
+5. 
+6. git add .
+7. git commit -m "message"
+8. git push origin main
+====================================
+testing
+
+1. create maven project
+2. dependency: selenium java and testng and install in marketplace
+3. public class App 
+{
+    public static void main( String[] args ) throws InterruptedException
+    {
+       WebDriver driver = new ChromeDriver();
+       driver.get("https://www.google.com/");
+       
+       Thread.sleep(2000);
+              WebElement e1 = driver.findElement(By.xpath("//*[@id=\"APjFqb\"]"));
+       e1.sendKeys("sexy");
+       
+       Thread.sleep(1000);
+       
+       WebElement e2 = driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[4]/div[6]/center/input[1]"));
+       e2.click();
+       
+       driver.quit();
+    }
+}
+
+
+
