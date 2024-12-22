@@ -23,7 +23,7 @@ GitHub
 testing
 
 1. create maven project
-2. dependency: selenium java and testng and install in marketplace
+2. dependency: selenium java and testng and install in pom.xml
 3. public class App 
 {
     public static void main( String[] args ) throws InterruptedException
